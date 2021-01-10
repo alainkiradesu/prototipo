@@ -126,6 +126,10 @@ footer p {
   .grid-3, .grid-2 {
     grid-template-columns: 1fr;
   }
+  .video{
+      width: 320px;
+      height: 280px;
+  }
 
   .services div {
     padding: 1.4rem 1rem;
