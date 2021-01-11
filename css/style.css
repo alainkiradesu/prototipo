@@ -1,5 +1,5 @@
 body {
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0,0.92);
   margin: 0;
   color: #fff;
   font-family: 'Open Sans', sans-serif;
@@ -7,9 +7,9 @@ body {
 
 .header::after {
   content: '';
-  height: 100vh;
+  height: 120vh;
   width: 100%;
-  background-image: url('../img/bg.jpg');
+  background-image: url('../img/bg.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
