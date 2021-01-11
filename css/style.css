@@ -59,6 +59,26 @@ body {
 .services{
     margin-top: 100px;
 }
+.espaciado{
+  margin-top: 50px;
+}
+.navegacion{
+  list-style: none;
+  padding: 5px;
+  text-align: center;
+  margin-left: -50px;
+  background-color: gray;
+}
+.navegacion li {
+  list-style: none;
+  padding: 5px;
+  font: bold;
+  display: inline-block;
+  font-size: 22px;
+}
+.enlaces{
+color: white;
+}
 .container {
   max-width: 960px;
   margin: auto;
@@ -115,7 +135,10 @@ footer p {
     top: 5%;
     margin-top: 5px;
   }
-
+  .navegacion{
+    top: 5%;
+    margin-top: 5px;
+  }
   .header-content .logo {
     height: 140px;
     width: 140px;
