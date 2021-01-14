@@ -68,6 +68,13 @@ font-size: 1.5rem;
 .espaciado{
   margin-top: 50px;
 }
+.imgcat{
+  transition: all 300ms;
+  filter: brightness(65%);
+}
+.imgcat:hover{
+  filter: blur(0px);
+}
 .navegacion{
   list-style: none;
   padding: 5px;
@@ -88,6 +95,11 @@ font-size: 1.5rem;
 .enlaces{
 color: white;
 transition: all 300ms;
+font-size: 1rem;
+}
+strong{
+  font-size: 1.2rem;
+  color: silver;
 }
 .enlaces:hover{
 	color: pink;
@@ -98,6 +110,22 @@ transition: all 300ms;
   margin: auto;
   overflow: hidden;
   padding: 4rem 1rem;
+}
+.parrafo{
+  font-size: 14px;
+  text-align: justify;
+}
+.video{
+  width: 300px;
+  height: 300px;
+}
+#sips{
+  margin-top: 0px;
+}
+.sinopsis{
+  display: grid;
+  grid-template-columns: 300px 500px;
+  grid-gap: 100px;
 }
 
 .grid-3 {
@@ -199,7 +227,7 @@ footer p {
 }
 #ctn-icon-search i{
     font-size: 18px;
-    color:black;
+    color:white;
     cursor: pointer;
   
 }
